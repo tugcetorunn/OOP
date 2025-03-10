@@ -1,0 +1,44 @@
+﻿OOP
+1-Encapsulation(İzole etmek, kapsüllemek)
+	kumanda örneği -> iç dışardan korumak için yapılan kap, dış katman
+	araba kaportası örneği
+	kullanıcının ihtiyacı olmayan şeyleri gizlemek, göstermemek
+
+2-Inheritance(Miras, türetme, kalıtım)
+	özelliklerin bir sınıftan diğer sınıfa aktarılması
+	örneğin: hayvanlar sınıfı -> memeli hayvanlar sınıfı -> insan sınıfı
+	insan sınıfı, memeli hayvanlar sınıfının özelliklerini alır
+	insan sınıfı, hayvanlar sınıfının özelliklerini alır
+	hiyerarşik ilişki binary tree
+	object otomatik olarak kalıtım verir. çünkü her şey object ten türer. (türer mi bakılacak)
+
+3-Polymorphism(Çok biçimlilik, çok şekillilik)
+	aynı isimde farklı işlevler
+	örneğin: toplama işlemi
+	iki sayıyı toplama, üç sayıyı toplama, stringleri birleştirme
+	overloading: aynı isimde farklı parametrelerle metotlar oluşturmak
+	overriding: aynı isimde farklı sınıflarda metotlar oluşturmak
+	örneğin: hayvanlar sınıfı -> memeli hayvanlar sınıfı -> insan sınıfı
+	insan sınıfında yürüme metodu, memeli hayvanlar sınıfında yürüme metodu
+	insan sınıfında yürüme metodu, hayvanlar sınıfında yürüme metodu
+	özel bir durumu çözer yürü metodu çağrılınca insan sınıfındaki yürü metodu çalışır (?)
+	polimorphism olması için kalıtım olması lazım.
+	sınıf içindeki değişkenleri doğrudan açmayın der. getter setter kullanın.
+
+4-Data Abstraction(Soyutlama)
+	verilerin saklanması ve işlenmesi
+	örneğin: araba sınıfı -> araba markası, araba modeli, araba rengi
+
+
+* camelCase  -> değişken isimlerinde kullanılır.
+* PascalCase -> class isimlerinde kullanılır.
+* snake_case -> python
+* kebab-case -> mvc de tagHelpers ta kullanılır. asp-route vs.
+* Hungarian Notation -> değişkenin türünü belirtir. strName, intAge, ... windows formda kullanılır.
+
+orphan records -> silinmiş kayıtlar ?
+
+byte code, il code
+
+
+
