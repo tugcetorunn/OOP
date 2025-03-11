@@ -28,7 +28,13 @@
 4-Data Abstraction(Soyutlama)
 	verilerin saklanması ve işlenmesi
 	örneğin: araba sınıfı -> araba markası, araba modeli, araba rengi
-
+	kod tekrarını önler.
+	base içinde tutulan birden fazla veriler bir collection da tutularak hiyerarşik düzen oluşturulur. bu sayede alt class lara ulaşım sağlanır.
+	diamondProblem - bir sınıf bir sınıf ve fazlasından kalıtım alınırsa oluşur. c# ta yoktur.
+	bir sınıf en fazla bir sınıftan miras alır. (aynı seviyede a -> b -> c (c nin iki atası var)) (a,b -> c olamaz)
+	property siz de olabilir. (gruplama amacıyla)
+	abstract class, bir kütüphane gibi kullanılmak amacıyla vardır. soyut bir kavram olduğu için kullanılır.
+	nesnesi alınmaz. 
 
 * camelCase  -> değişken isimlerinde kullanılır.
 * PascalCase -> class isimlerinde kullanılır.

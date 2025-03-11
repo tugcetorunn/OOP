@@ -1,0 +1,7 @@
+﻿const - sabittir, değiştirilemez (muttable). tanımlandığı yerde değer atanmalıdır. sadece değer tanımlandığı yerde değişir.
+public const double Pi = 3.14;
+static metod gibi classAdi. denilerek ulaşılır.
+
+readonly - sadece constructor da değeri değiştirilebilir. 
+public readonly double katsayi = 12.5;
+static metod gibi classAdi. denilerek değil, nesne üzerinden ulaşılır.

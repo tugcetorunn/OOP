@@ -1,0 +1,31 @@
+﻿CONSTRUCTOR (İnşa Edici Metod) -> class member
+
+bir sınıf ram de oluşturulurken ilk çalışan metoddur.
+bir class tan nesne oluşturulduğu zaman ilk tetiklenen metoddur.
+
+class ile aynı isimde olmalı. return type yazılmaz, değer döndürmez. yazmasak da default void dir.
+
+genelde değer atamak için kullanılır.
+
+parametresi olmayan ctor default constructor dır.
+parametreli ctor yazarsak default ctor oluşturulmaz. yazmaksak compiler default ctor oluşturur.
+
+otomatik çalıştığı için nesneAdi. yazdığımızda ctor u göremeyiz. biz çağırmayız. new ile çağrılır.
+
+new keywordünün sağında new lenen nesne için ctor çalışır. new Kitap() -> Kitap() ctor dur. bunu çalıştırmış oluruz.
+
+neden ctor kullanırız?
+1- nesne ilk oluşturulduğunda nesnenin başlangıç değerlerini atamak için. (çok fazla kullanılmıyor artık) { Id = 1, ... artık object initializer kullanılıyor} 
+2- sınıf oluşturulurken ilk yapılmasını istediğimiz işlemleri yapmak için. (örneğin: dosyayı açmak, veritabanı bağlantısı açmak, oyunlarda bir yer yapılırken o esnada çıkan animasyon)
+3- kullanıcıları bir şeylere, belirli parametrelere zorlamak (parametre vemeye) -> dependency injection (ctor inversion) (bir sınıfın başka bir sınıfı kullanabilmesi için onu ctor ile alması) (zorunlu old için default ctor (parametresiz) oluşturmayız)
+
+imzası farklı olmak kaydıyla n tane ctor yazarak overload edebiliriz.
+
+destructure (dector) -> class member
+yıkıcı olan metod destructor dır. 1 tane olur. (deplicated)
+kullanımı yoktur. (çünkü garbage collector var)
+kullanırken dikkatli olmak gerekir (performans sorunlarına yol açabilir)
+IDisposable -> dispose() kullanmak destructor dan daha iyidir. memoryden dolayı.
+
+*** bir sınıfın kendi ctor ları arasında veri transferi yapmak için this() kullanılır. public Kitap(...) : this(...)
+*** kalıtım ile ilgili ctorlar arası veri transferi yapılacak ise base() kullanılır.
