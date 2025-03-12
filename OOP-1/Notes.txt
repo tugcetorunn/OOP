@@ -21,9 +21,12 @@
 	örneğin: hayvanlar sınıfı -> memeli hayvanlar sınıfı -> insan sınıfı
 	insan sınıfında yürüme metodu, memeli hayvanlar sınıfında yürüme metodu
 	insan sınıfında yürüme metodu, hayvanlar sınıfında yürüme metodu
-	özel bir durumu çözer yürü metodu çağrılınca insan sınıfındaki yürü metodu çalışır (?)
+	özel bir durumu çözer yürü metodu çağrılınca insan sınıfındaki (köylü, asker, okçu classlarında farklı çalışan aynı yürü metodu varken) yürü metodu çalışır.
+	örn oyunlardaki çoklu karakterlerin hareketleri polimorphism ile yapılır. polimorphism olmasa her karakter için ayrı metot yazılmalıydı.
 	polimorphism olması için kalıtım olması lazım.
 	sınıf içindeki değişkenleri doğrudan açmayın der. getter setter kullanın.
+	aynı isimdeki farklı class memberların (sadece method değil) farklı şekilde çalışabilmeleridir.
+
 
 4-Data Abstraction(Soyutlama)
 	verilerin saklanması ve işlenmesi
@@ -34,7 +37,7 @@
 	bir sınıf en fazla bir sınıftan miras alır. (aynı seviyede a -> b -> c (c nin iki atası var)) (a,b -> c olamaz)
 	property siz de olabilir. (gruplama amacıyla)
 	abstract class, bir kütüphane gibi kullanılmak amacıyla vardır. soyut bir kavram olduğu için kullanılır.
-	nesnesi alınmaz. 
+	nesnesi alınmaz. ama referans edilebilir. -> urun urun = new urun(); olmaz. urun urun2 = new kitap(); olur. -> ((kitap)urun2).sayfaSayisi propertylere de cast ederek ulaşılabilir.
 
 * camelCase  -> değişken isimlerinde kullanılır.
 * PascalCase -> class isimlerinde kullanılır.
@@ -46,5 +49,7 @@ orphan records -> silinmiş kayıtlar ?
 
 byte code, il code
 
+var -> verinin tipi belli olana kadar verilen bir placeholder gibi çalışır. runtimeda da designtimeda da tipin belirlendiği durumları var.
+dynamic ->
 
-
+protected internal ->

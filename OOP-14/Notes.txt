@@ -1,0 +1,20 @@
+﻿Collections
+
+- arrayden farklı olarak boyutu dinamik olarak değiştirilebilen veri yapılarıdır.
+- boyutu belli yapılarda aynı türdeki verileri saklamak için array kullanılır.
+- arraylerde boyutu yeniden ayarlamak için resize metodu kullanılabilir.
+- arraylerde veri tipleri aynı olmalıdır. collectionlarda farklı olabilir.
+- array ler 1 den 3 e kadar boyuta sahip olabilir. collectionlar ise 1.
+- resim dosyaları (1096 * 768 * rgb||png||bw||jpeg... -> boyutu), ses dosyaları, string (char array) birer array örneğidir.
+- collectionlar, arraylerden daha esnek ve daha güçlüdür. 
+- collectionlar, arraylerden daha fazla işlevsellik sağlar. (ekleme, çıkarma, arama, sıralama, filtreleme, döngüleme, ...)
+- collectionlar, arraylerden daha fazla bellek kullanır. (arrayler bellekte sürekli yer kaplar. collectionlar ise sadece kullanıldıklarında bellekte yer kaplar.)
+- stack, queue, linkedlist, sortedlist, dictionary, hashtable, list, arraylist, ... (collections)
+- ienumerable, ienumerator, iqueryable collectionların karakteristiğidir. collection örneği değillerdir.
+- collectionlar, generic ve non-generic olarak ikiye ayrılır. generic olanlar, tip güvenliği sağlar. non-generic olanlar, tip güvenliği sağlamaz.
+
+visual studio
+developer command prompts
+"ildasm"
+
+
