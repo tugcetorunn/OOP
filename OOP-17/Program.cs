@@ -34,7 +34,7 @@ foreach (var urun in depo.TumUrunler())
     Console.WriteLine(urun);
 }
 
-Console.WriteLine("Toplam depo malzeme satış tutarı : " + depo.TumUrunlerinToplamFiyati);
+Console.WriteLine("Toplam depo malzeme satış tutarı : " + depo.TumUrunlerinToplamFiyati());
 
 Console.WriteLine();
 

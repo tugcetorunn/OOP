@@ -1,0 +1,13 @@
+﻿INTERFACES
+
+- Interfacelerin abstract class tan farkı şudur: interface lerde sadece metotlar tanımlanır. field tanımlanamaz. (field tanımlanırsa hata verir)
+- interface lerde metotlar tanımlanırken abstract class larda olduğu gibi abstract anahtar kelimesi kullanılmaz. (interface lerde metotlar zaten abstracttır)
+- 
+neden kullanılır?
+- hiyerarşik yapıyı kırmak için, esneklik için kullanılır. (bir sınıfın birden fazla interface i olabilir)
+- class lara yetenek kazandırmak için kullanılır.
+- loosed coupling sağlar. (bağımlılığı azaltır) bu sayede dependency injection için kullanılır.
+- yazdığımız uygulamaları .net framework uyumlu hale getirmek için kullanılır. -> foreach -> IEnumerable -> IEnumerator
+
+- üzüm salkımı - yüzlerce classın içinde bir interface i implement eden classları bulmak için filtreleme yapabiliriz.
+
