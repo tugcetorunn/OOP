@@ -1,0 +1,23 @@
+﻿STRUCT
+- Struct lar class lar gibi bir veri yapısıdır.
+- Struct ların default erişim belirleyicisi public tır.
+- Struct ların default erişim belirleyicisi public olduğu için, struct ların içinde private, protected ve public erişim belirleyicileri kullanılamaz.
+- Struct ların içinde static üye değişkenler tanımlanabilir. Ancak static üye fonksiyonlar tanımlanamaz.
+- value type bir veri yapısıdır. stack te tutulur. value type lar struct tipinde türetilmişlerdir (int, char, double, float, bool, enum, struct, array, pointer, delegate, tuple, value type lar).
+- bir veri yapısının boyu 16 byte ı geçmiyorsa struct kullanılabilir. 16 byte ı geçiyorsa class kullanılmalı. reference type a geçilmelidir.
+- Struct ların içinde constructor tanımlanabilir. Ancak destructor tanımlanamaz.
+- Struct ların içinde friend fonksiyonlar tanımlanabilir. Ancak friend class lar tanımlanamaz. 
+- Struct ların içinde virtual fonksiyonlar tanımlanamaz. 
+- c# ta structlarda metot ve property tanımlanabilir.
+
+generic kısıtlar; class, struct, kalıtım, new
+
+GENERIC
+- daha az kod yazmamızı sağlayarak birden fazla tipte aynı fonksiyonları kullanabiliriz. tip bağımsızlık (tip güvenliği) sağlar.
+- tüm class memberlar generic olabilir.
+- generic class ların içinde static üye değişkenler tanımlanabilir. Ancak static üye fonksiyonlar tanımlanamaz.
+- generic class ların içinde constructor tanımlanabilir. Ancak destructor tanımlanamaz.
+- generic class ların içinde friend fonksiyonlar tanımlanabilir. Ancak friend class lar tanımlanamaz.
+- generic class ların içinde virtual fonksiyonlar tanımlanabilir.
+- generic class ların içinde metot ve property tanımlanabilir.
+- generic class ların içinde static metot ve property tanımlanabilir.

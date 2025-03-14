@@ -1,0 +1,8 @@
+﻿STACK
+- LIFO mekanizmasında çalışır. klavye backspace, tarayıcı geçmişi, ctrl + z işlemi, stack bölgesi gibi.
+
+QUEUE
+- FIFO mekanizmasında çalışır.
+
+HASHTABLE (DICTIONARY<>)
+- Key-Value pair şeklinde çalışır. Key'ler unique olmalıdır. Key'lerin hash değerleri alınarak value'lar saklanır.
