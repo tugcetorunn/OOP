@@ -1,0 +1,14 @@
+﻿using OOP_34_CalisanPuantajTakip.BaseAbstracts;
+using OOP_34_CalisanPuantajTakip.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OOP_34_CalisanPuantajTakip.PozisyonInterfaces
+{
+    internal interface IGenelMudur : IPozisyon, IMaasDuzenleme, IMaasGoruntuleme
+    {
+    }
+}
