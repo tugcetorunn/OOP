@@ -1,0 +1,16 @@
+﻿DOSYA
+
+- verileri kalıcı olarak tutmamızı sağlar.
+- disk üzerinde veri dosya olarak saklanır. txt, docx, xlsx, pdf, png, xml, csv, ...
+- dosyalar ikiye ayrılır: metin (text) dosyaları(header olmaz düz string) ve binary (resim, müzik dosyaları)(header ve data kısımlarından oluşur 
+(header ını bilmediğimiz hiçbir binary dosyayı okuyamayız)) dosyalar.
+- json, xml, csv farkı nelerdir? json ve xml dosyaları metin dosyalarıdır, csv ise metin dosyası olmasına rağmen verileri virgülle ayırır. 
+json ve xml dosyaları verileri daha düzenli ve okunabilir şekilde saklar. json ve xml dosyaları verileri nesne olarak saklar. json dosyaları javascript 
+nesneleri gibi saklar. xml ise html gibi saklar. csv ise tablo gibi saklar. 
+- xml den json a geçme nedenimiz xml daha büyük dosyalar oluştururken json daha küçük dosyalar oluşturur. maliyet yarı yarıya iner.
+- json dosyaları daha hızlı okunur ve yazılır.
+- xml ve json hiyerarşik yapıdadır. csv ise tablo yapısındadır.
+- serializasyon: nesnelerin veri dosyasına yazılması işlemi. ramdeki bir objeyi stringe çevirme işlemi (bu sayede bunu globalde internet üzerinde 
+gösterebilme imkanı sağlıyoruz). 
+- deserializasyon: veri dosyasından nesnelerin okunması işlemi. disktedki stringi ramde objeye çevirme (instance ı alınması gerekiyor(new leyerek değil)) işlemi. 
+- 

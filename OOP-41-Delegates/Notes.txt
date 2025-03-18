@@ -1,0 +1,25 @@
+﻿DELEGATES =>
+- metod taşımak için kullanılırlar. 
+- photoshop örneği: bir resmi açıp üzerinde işlem yapmak için bir delegasyon yaparız.
+- her delegate he metodu taşımaz. 
+- metod olarak da kullanılır, değer de döndürür 
+- delegates metod imzası ile return type ı aynı olan metodları taşır.
+- c# collection olarak geçer.
+- iki delegate le her şey yapılabilir -> action ve function lar
+- bir yerde func, action, delegate gördüğümüz de orada metod çağırabiliyoruz.
+- Delege bir metodu temsil eden bir referanstır.
+- Delege bir referans türüdür.
+- Delege bir metodu temsil eder.
+- Delege bir metodu çağırabilir.
+- Delege bir metodu başka bir metoda parametre olarak geçebilir.
+- Delege bir metodu başka bir metoda geri döndürebilir.
+
+delegates neye yarar?
+- Delege, bir metodu başka bir metoda parametre olarak geçmek için kullanılır. =>
+- callback fonksiyonları için kullanılır.
+- Eventlerde kullanılır.
+- Asenkron programlamada kullanılır.
+- c deki function pointer gibi düşünebiliriz.
+
+- sqlde bir özel durum : stored procedureler geriye değer döndürmez. sadece tamsayı döndürebilir. normalde derlenmiş tablo gösterir.
+- function lar değer döndürür.

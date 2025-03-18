@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "123",
+    "Ad": "Denemeler",
+    "Yazar": "Montaigne",
+    "Fiyat": 156
+  },
+  {
+    "Id": "124",
+    "Ad": "Denemeler",
+    "Yazar": "Montaigne",
+    "Fiyat": 156
+  },
+  {
+    "Id": "125",
+    "Ad": "Denemeler",
+    "Yazar": "Montaigne",
+    "Fiyat": 156
+  },
+  {
+    "Id": "126",
+    "Ad": "Denemeler",
+    "Yazar": "Montaigne",
+    "Fiyat": 156
+  },
+  {
+    "Id": "127",
+    "Ad": "Denemeler",
+    "Yazar": "Montaigne",
+    "Fiyat": 156
+  }
+]

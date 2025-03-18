@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Kitaplar>
+	<Kitap ID = "123">
+		<Ad>Denemeler</Ad>
+		<Yazar>Montaigne</Yazar>
+		<Fiyat>154</Fiyat>
+	</Kitap>
+	<Kitap ID = "124">
+		<Ad>Denemeler</Ad>
+		<Yazar>Montaigne</Yazar>
+		<Fiyat>154</Fiyat>
+	</Kitap>
+	<Kitap ID = "125">
+		<Ad>Denemeler</Ad>
+		<Yazar>Montaigne</Yazar>
+		<Fiyat>154</Fiyat>
+	</Kitap>
+</Kitaplar>

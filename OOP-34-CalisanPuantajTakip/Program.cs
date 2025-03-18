@@ -12,4 +12,7 @@
 // her çalışanın maaşı olur - maaşı genel müdür belirler. görümtülemeyi ik.
 // üretim bilgisi girme üretim müdüründe, görüntüleme tüm departmanların müdürleri ve genel müdürde. (bonus)
 
+// tüm çalışanlar listesi
+// departmana özel çalışanlar listesi
+// txt okuma yazma
 
