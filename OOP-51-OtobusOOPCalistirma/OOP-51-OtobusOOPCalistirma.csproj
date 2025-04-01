@@ -1,15 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>OOP_49_HastaneOtomasyonSistemi</RootNamespace>
+    <RootNamespace>OOP_51_OtobusOOPCalistirma</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concretes\Enums\" />
-    <Folder Include="Utilities\" />
+    <ProjectReference Include="..\OOP-52-OtobusOOP\OOP-52-OtobusOOP.csproj" />
   </ItemGroup>
 
 </Project>

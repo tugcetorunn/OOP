@@ -1,1 +1,0 @@
-public Hastane Hastane { get; set; }
