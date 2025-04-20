@@ -10,10 +10,10 @@
 
 int Faktoriyel(int sayi)
 {
-    //if (sayi == 1)
-    //{
-    //    return 1;
-    //}
+    if (sayi == 1)
+    {
+        return 1;
+    }
     return sayi * Faktoriyel(sayi - 1); // sadece bu satır olursa stackoverflow hatası (stack in taşması) alırız. yani sonuç dönmez. çünkü int in min değeri olan -2.147.483.648 ye kadar gider. bu yüzden if bloğu eklememiz gerekiyor. nereye kadar çalışacağını belirtmemiz gerekiyor.
 }
 

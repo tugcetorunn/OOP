@@ -35,6 +35,8 @@ namespace OtobusOtomasyonSonuc.Utilities
             otobus.Personeller.Add(new Muavin { PersonelId = random.Next(1, 10000), Ad = AdSec(adlar), Soyad = AdSec(soyadlar), Yas = random.Next(18, 40), Tecrube = random.Next(1, 10) });
             otobus.Personeller.Add(new Host { PersonelId = random.Next(1, 10000), Ad = AdSec(adlar), Soyad = AdSec(soyadlar), Yas = random.Next(18, 40), Tecrube = random.Next(1, 10) });
 
+            otobus.MuavinKoltugu = new MuavinKoltugu { Personel = (Muavin)otobus.Personeller[2] }; // muavin sınıfından türeyen personel olarak atamayı dene.
+            
             // yolcuları ata
             for (int i = 0; i < otobus.YolcuKoltuklari.Capacity; i++)
             {

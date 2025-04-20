@@ -5,7 +5,7 @@ double ondalik = new double();
 bool dogruMu;
 char karakter = new char();
 // value type olan yapılar struct tır. struct lar stack te tutulur.
-// value type ların en büyük özelliği boyutları sabittir. yani stack te tutulurlar ve stack in boyutu sabittir. stack in boyutu 1 mb dır. bu yüzden stack ta tutulan veri boyutu 1 mb yi geçmemelidir. 16 byte ?
+// value type ların en büyük özelliği boyutları sabittir. yani stack te tutulurlar ve stack in boyutu sabittir. stack in boyutu 1 mb dır. bu yüzden stack ta tutulan veri boyutu 1 mb yi geçmemelidir. 16 byte ? 1mb == 1milyon(1024*1024) byte == 1024 kb
 
 Nokta nokta = new Nokta();
 nokta.X = 12;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_29_GenericKisitlar
 {
-    internal class Guvenlik : ISilahTasiyabilir
+    internal class Guvenlik : Personel, ISilahTasiyabilir
     {
     }
 }

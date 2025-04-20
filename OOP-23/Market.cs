@@ -15,10 +15,10 @@ namespace OOP_23
         }
         public void UrunCikar(Urun urun)
         {
-            if (urun.)
-            {
+            //if (urun.)
+            //{
 
-            }
+            //}
             Urunler.Remove(urun);
         }
     }

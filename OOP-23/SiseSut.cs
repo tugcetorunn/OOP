@@ -25,7 +25,10 @@ namespace OOP_23
                     return durum;
                 }
             }
-            set;
+            set
+            {
+                Durum = value;
+            }
         }
 
         public void ListedenCikar(ISKTGecerli bozulabilirUrun)

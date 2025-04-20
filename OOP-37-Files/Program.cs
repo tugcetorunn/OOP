@@ -23,7 +23,7 @@ Dictionary<int, int> SonuclariGoster(string dosyaAdi)
         int not = int.Parse(sr.ReadLine());
 
         // frekanslar.Add(not, frekanslar[not]++); // frekanslar[not] olmadığı için hata verir. ilk değer ataması yapılması lazım.
-        frekanslar[not]++;
+        //frekanslar[not]++;
 
         if (frekanslar.ContainsKey(not))
         {

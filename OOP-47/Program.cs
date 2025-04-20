@@ -15,6 +15,7 @@
 // 2- otobüsü listele.
 // 3- otobüsün verileri dosyaya json olarak yaz. (personel + yolcu)
 
+// hocanın yaptığı proje dll dosyası OtobusOtomasyonSonuc.
 using Newtonsoft.Json;
 using OtobusOtomasyonSonuc.Concretes.Classes;
 using OtobusOtomasyonSonuc.Utilities;

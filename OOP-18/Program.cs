@@ -14,5 +14,6 @@ IArayuz obj2 = new Musteri();
 // bu şekilde bu interface i implement eden sınıfları aynı tipte ortak yerde tutmuş oluruz.
 
 obj1.Test(); // test metoduna bu şekilde ulaşabiliriz.
-
+obj2.Test(); // test metoduna bu şekilde ulaşabiliriz.
+Console.WriteLine();
 

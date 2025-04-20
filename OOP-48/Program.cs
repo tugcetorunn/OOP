@@ -1,6 +1,10 @@
 ﻿using OtobusOtomasyonSistemi.AbstractClasses;
 using OtobusOtomasyonSistemi.Classes;
 
+Random random = new Random();
+List<string> listIsim = new List<string>() { "Ali", "Buse", "Esra", "Gökçe" };
+List<string> listSoyisim = new List<string>() { "Kaya", "Han", "Kar", "Tan" };
+
 Console.WriteLine("İşlem seçiniz");
 Console.WriteLine("1 - Otobüs oluştur");
 Console.WriteLine("2 - Otobüsü listele");
@@ -11,10 +15,11 @@ string secim = Console.ReadLine();
 switch (secim)
 {
 	case "1":
-		
+		OtobusOlustur();
 		break;
 		
 	case "2":
+
 		break;
 
 	case "3":
@@ -24,10 +29,6 @@ switch (secim)
         Console.WriteLine("Geçerli seçim giriniz");
 		break;
 }
-
-Random random = new Random();
-List<string> listIsim = new List<string>() { "Ali", "Buse", "Esra", "Gökçe"};
-List<string> listSoyisim = new List<string>() { "Kaya", "Han", "Kar", "Tan"};
 
 List<Personel> personeller = new List<Personel>()
     {

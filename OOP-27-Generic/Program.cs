@@ -35,7 +35,20 @@ void EkranaYazdir<T>(T[] dizi)
 EkranaYazdir<int>(sayilar);
 EkranaYazdir(sehirler);
 
-// tanımladığımızda parametre denen elemanlara çağrılırken argument tir.
+// tanımladığımızda parametre denen elemanlara çağrılırken argument denir.
+/*
+ Parametre (Parameter):
+Fonksiyon/method tanımlanırken parantez içinde yer alan, isimleri belirlenen değişkenlerdir.
+→ Yani bir fonksiyonun ne tür veriler alacağını belirleyen şablondur.
+
+Argüman (Argument):
+Fonksiyon/method çağrılırken, parametrelere karşılık gönderilen gerçek değerlerdir.
+→ Yani fonksiyon çalıştırıldığında gönderilen verilerdir.
+
+string name ve int age → Parametre
+
+"Ali" ve 25 → Argüman
+ */
 
 Depo<Televizyon> depo = new Depo<Televizyon>();
 depo.Ekle(new Televizyon());
