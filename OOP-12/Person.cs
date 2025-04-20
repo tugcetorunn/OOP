@@ -31,6 +31,6 @@ namespace OOP_12
         }
 
         // c# ta zaten string bir mesaj için tostring virtual metod hazır vardır onu kullanmak daha best practice dir.
-        // open ?, closed modification
+        // open for extension, closed to modification
     }
 }

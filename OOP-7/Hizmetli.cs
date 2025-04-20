@@ -11,7 +11,7 @@ namespace OOP_7
         public Hizmetli()
         {
             sicilNotu = "";
-            // protected -> public ve private ın arasında bir belirteçtir. akrabalık ilişkisini de işarta koyar.
+            // protected -> public ve private ın arasında bir belirteçtir. akrabalık ilişkisini de şarta koyar.
         }
     }
 }

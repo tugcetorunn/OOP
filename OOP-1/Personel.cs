@@ -21,13 +21,13 @@ namespace OOP_1
             this.id = id;
         }
 
-        // daha sonra property ler çıktı. property lerin get ve set metodları vardır. property, full property ve auto property (c# 3.0 dan sonra) olmak üzere 3 çeşittir.
-
+        // daha sonra property ler çıktı. property lerin get ve set metodları vardır. property(c# 3.0 dan önce), auto property(c# 3.0 dan sonra) ve semi auto property olmak üzere 3 çeşittir. full property??
+        // semi auto property gelecek, geldi mi??
         public int Yas { get; set; } // auto property ihtiyacı olan değişkeni (field) kendi oluşturur. backingField oluşturur. PROPERTY LER ASLINDA GET SET YAPAN METOTLARDIR. bir aracıdır, kendi üzerinde veri tutmaz.
 
         public string Ad { get; set; } // auto property
 
-        private string soyad; // c# 3.0 öncesi property (2008)
+        private string soyad; // c# 3.0 öncesi klasik property (2008)
         public string Soyad // full property diye çıkıyor?
         {
             get

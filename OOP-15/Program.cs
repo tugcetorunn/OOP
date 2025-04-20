@@ -8,6 +8,8 @@ TimeSpan delta = new TimeSpan();
 
 int sayac = 999999;
 
+//ArrayList arrayList2 = new ArrayList(); // arraylist in birden fazla versiyonu var. bu versiyonu generic değil. generic olanı kullanmak daha iyi çünkü boxing unboxing yapmıyor. boxing unboxing -> int i = 5; object o = i; // boxing, object o = 5; int i = (int)o; // unboxing
+
 // arraylist için
 
 basla = DateTime.Now;
